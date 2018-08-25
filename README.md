@@ -1,4 +1,8 @@
-#Example
+#BlackListed Words
+
+replace all the instances of your blacklisted words with asterisks
+
+## Example
 
 ```shell
 $ npm install sensitive-words --save
