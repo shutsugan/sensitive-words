@@ -9,16 +9,17 @@ $ npm install sensitive-words --save
 ```
 
 ```javascript
-const {sensitiveWords} = require('sensitive-words');
+const {blacklistedWords} = require('sensitive-words');
 
 //ES2015 modules
-import {sensitiveWords} from 'sensitive-words';
+import {blacklistedWords} from 'sensitive-words';
 
-const filtered = sensitiveWords(
+const filtered = blacklistedWords(
 	'The shinigami Kenpachi Zaraki does not know the name of his Zanpakutō.',
-	['shinigami', 'Zanpakutō']
+	['shinigami', 'Zanpakutō'],
+	'***'
 );
 
 console.log(filtered);
-//The ***** Kenpachi Zaraki does not know the name of his *****.
+//The *** Kenpachi Zaraki does not know the name of his ***.
 ```
