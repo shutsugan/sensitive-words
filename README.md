@@ -5,14 +5,14 @@ replace all the instances of your blacklisted words with asterisks
 ## Example
 
 ```shell
-$ npm install sensitive-words --save
+$ npm install blacklisted-words --save
 ```
 
 ```javascript
-const {blacklistedWords} = require('sensitive-words');
+const {blacklistedWords} = require('blacklisted-words');
 
 //ES2015 modules
-import {blacklistedWords} from 'sensitive-words';
+import {blacklistedWords} from 'blacklisted-words';
 
 const filtered = blacklistedWords(
 	'The shinigami Kenpachi Zaraki does not know the name of his Zanpakutō.',
