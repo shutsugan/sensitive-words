@@ -1,4 +1,4 @@
-#BlackListed Words
+# BlackListed Words
 
 replace all the instances of your blacklisted words with asterisks
 
