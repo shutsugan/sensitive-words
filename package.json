@@ -1,6 +1,6 @@
 {
   "name": "blacklisted-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filter out a list of blacklisted words",
   "main": "build/index.js",
   "scripts": {
